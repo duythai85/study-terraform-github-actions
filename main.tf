@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "ACG-Terraform-Testing"
+    organization = "ACG-Terraform-Testing" // update
 
     workspaces {
       name = "demo-github-actions"
