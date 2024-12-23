@@ -54,3 +54,5 @@ resource "aws_security_group" "web-sg" {
 output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
 }
+
+#this is a comment, I am using dev container to edit this file and check if its working
