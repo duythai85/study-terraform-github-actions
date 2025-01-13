@@ -27,7 +27,7 @@ provider "aws" {
 
 
 
-// deploy me
+// deploy2 me
 
 
 resource "random_pet" "sg" {}
