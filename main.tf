@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "Ayalneh-Terraform-Demo"
+    organization = "ACG-Terraform-Demo"
 
     workspaces {
       name = "demo-github-actions"
