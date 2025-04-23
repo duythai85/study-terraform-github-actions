@@ -11,11 +11,12 @@ terraform {
   }
   required_version = "~> 1.0"
 
+  terraform {
   backend "remote" {
     organization = "duythai1985-org"
 
     workspaces {
-      name = "demo-github-actions"
+      name = "example-workspace"
     }
   }
 }
